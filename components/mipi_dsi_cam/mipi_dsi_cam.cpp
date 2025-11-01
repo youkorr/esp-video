@@ -12,10 +12,6 @@
 
 #include "mipi_dsi_cam_drivers_generated.h"
 
-#ifdef MIPI_DSI_CAM_ENABLE_V4L2
-#include "mipi_dsi_cam_v4l2_adapter.h"
-#endif
-
 #ifdef MIPI_DSI_CAM_ENABLE_ISP_PIPELINE
 #include "mipi_dsi_cam_isp_pipeline.h"
 #endif
