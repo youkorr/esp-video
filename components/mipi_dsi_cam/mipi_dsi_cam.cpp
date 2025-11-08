@@ -4,7 +4,7 @@
 extern "C" {
 #include <fcntl.h>
 #include <sys/ioctl.h>
-#include <sys/mman.h>
+//#include <sys/mman.h>
 #include <unistd.h>
 #include <errno.h>
 #include <string.h>
